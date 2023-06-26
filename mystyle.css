@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+
+section,
+#profile,
+#activities{
+    width: 600px;
+    margin: auto;
+    padding: 15px;
+
+}
+
+section,
+#profile,
+#activities{
+    background-color: white;
+}
+
+section#profile h1,
+section#activities h1{
+    text-align: center;
+    font-size: 32px;
+    background-color: gray;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#profile-content img{
+    width: 200px;
+    float: left;
+
+}
+
+#profile-content, 
+#deskripsi-profile{
+    width: 450px;
+   
+}
+
+.fix-container {
+    clear: both;
+}
+
+#profile-content, 
+#deskripsi-profile p{
+    text-align: justify;
+    font-size: 14px;
+}
+
+#profile-content{
+    width: 500px;
+    margin: auto;   
+}
+
+.item-activity img,
+.item-activity p{
+    width: 500px;
+    margin: auto;
+    display: block;
+}
+
+.item-activity p{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding: 1px;
+}
+   
+
+
+
+
